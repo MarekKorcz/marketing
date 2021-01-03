@@ -1,3 +1,3 @@
-exports.main = (req, res) =>{
-    res.render('main')
+exports.home = (req, res) =>{
+    res.render('home')
 }
