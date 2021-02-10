@@ -1,0 +1,45 @@
+.content {
+    max-width: 960;
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+    padding-top: 6vh;
+}
+
+
+
+
+
+.content-tails {
+    padding: 2rem;
+}
+
+
+
+
+
+#parallax-blog-list {
+    background: url('../img/type-machine.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 5vh 0 5vh;
+    color: yellow;
+    text-shadow: .15rem .15rem #ee27f0;
+}
+
+.parallax {
+    height: 100vh;
+}
+
+.parallax-text {
+    position: absolute;
+    top: 30%;
+}
+
+.parallax-text span {
+    font-size: 3rem;
+}
+
+.parallax-text p {
+    font-size: 1.5rem;
+}

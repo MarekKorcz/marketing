@@ -1,35 +1,3 @@
-.cyan-bg {
-  background: #2ff3e0;
-}
-
-.gold-bg {
-  background: #f8d210;
-}
-
-.gold-text {
-  color: #f8d210;
-}
-
-.pink-bg {
-  background: #ee27f0;
-}
-
-.pink-text {
-  color: #ee27f0;
-}
-
-.chili-pepper-text {
-  color: #f51720;
-}
-
-.chili-pepper-bg {
-  background-color: #f51720;
-}
-
-.white-text {
-  color: white;
-}
-
 .main-element-scaffold {
   position: relative;
   height: auto;
@@ -39,11 +7,9 @@
 
 #first-main {
   text-align: center;
-  top: 9vh;
   min-height: 45rem;
-  border-radius: 2.7rem;
-  margin-top: .5vh;
-  margin-bottom: 16vh;
+  border-radius: 1.5rem;
+  margin-bottom: 8.1vh;
 }
 
 .centered {
@@ -87,9 +53,4 @@
 .text-half {
   padding: 2rem;
   text-shadow: .09rem .09rem #ee27f0;
-}
-
-.center-positioning {
-  display: grid;
-  place-items: center;
 }
