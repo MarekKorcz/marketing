@@ -1,3 +1,7 @@
+img {
+    border-radius: 0;
+}
+
 .content {
     max-width: 960;
     margin: 0 auto;
@@ -5,18 +9,6 @@
     font-size: 24px;
     padding-top: 6vh;
 }
-
-
-
-
-
-.content-tails {
-    padding: 2rem;
-}
-
-
-
-
 
 #parallax-blog-list {
     background: url('../img/type-machine.jpg') no-repeat center;
@@ -38,8 +30,38 @@
 
 .parallax-text span {
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .parallax-text p {
     font-size: 1.5rem;
+}
+
+.content-tails {
+    background-color: #ee27f0;
+    padding: .9rem;
+}
+
+.headers {
+    padding-left: .9rem;
+    font-size: 48px;
+    color: #f8d210;
+    text-shadow: .15rem .15rem #f51720;
+}
+
+.tail {
+    min-height: 51vh;
+    padding: 1.2rem;
+    cursor: pointer;
+}
+
+.tail p {
+    padding-top: .9rem;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: .09rem .09rem #f51720;
+}
+
+.faded {
+    opacity: .69;
 }
