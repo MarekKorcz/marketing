@@ -1,0 +1,55 @@
+img {
+    border-radius: 0;
+}
+
+.content {
+    max-width: 960;
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+}
+
+#parallax-blog-article-why-copywriting {
+    background: url('../../img/copywriting.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#parallax-blog-article-why-own-marketing-agency {
+    background: url('../../img/why_agency.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.parallax {
+    height: 72vh;
+}
+
+.article-title {
+    height: 28vh;
+    text-align: center;
+    padding: 0 2vh 0 2vh;
+    background-color: #ee27f0;
+}
+
+.article-title p {
+    padding-top: 3vh;
+    font-size: 3.66vh;
+    color: #f8d210;
+    text-shadow: .15rem .15rem #f51720;
+}
+
+.article {
+    margin: 5.1vh 9vh 3vh 9vh;
+}
+
+.article p {
+    font-size: 1rem;
+}
+
+.article p.bolt {
+    font-size: 1.5rem;
+}
+
+.article p.highlight {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
