@@ -19,6 +19,11 @@ img {
     background-size: cover;
 }
 
+#parallax-blog-article-what-is-copywriting {
+    background: url('../../img/what_is_copy.jpg') no-repeat center;
+    background-size: cover;
+}
+
 .parallax {
     height: 72vh;
 }
@@ -38,7 +43,7 @@ img {
 }
 
 .article {
-    margin: 5.1vh 9vh 3vh 9vh;
+    margin: 5.1vh 9vh 6.6vh 9vh;
 }
 
 .article p {

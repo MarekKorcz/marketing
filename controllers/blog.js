@@ -9,3 +9,7 @@ exports.why_copywriting = (req, res) =>{
 exports.why_own_marketing_agency = (req, res) =>{
     res.render('blog/why-own-marketing-agency')
 }
+
+exports.what_is_copywriting = (req, res) =>{
+    res.render('blog/what-is-copywriting')
+}
