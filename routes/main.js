@@ -4,6 +4,6 @@ const mainController = require('../controllers/main')
 
 router.get('/', mainController.home)
 
-router.get('/social-media-pricing', mainController.social_media_pricing)
+router.get('/pricing', mainController.pricing)
 
 module.exports = router

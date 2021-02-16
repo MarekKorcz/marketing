@@ -1,0 +1,38 @@
+.content {
+  padding: 12vh 6vh 6vh 6vh;
+}
+
+.fb {
+  background-color: #4267B2 !important;
+  color: white !important;
+  border: 0;
+  margin-bottom: 1.8vh;
+}
+
+
+.insta {
+  background-color: #e95950 !important;
+  color: white !important;
+  text-shadow: none;
+  border: 0;
+  margin-bottom: 1.8vh;
+}
+
+.insta p {
+  color: #fbad50;
+}
+
+.insta h4 {
+  color: #fccc63;
+}
+
+
+.fb.active, 
+.insta.active,
+.fb:hover, 
+.insta:hover {
+  background-color: #2ff3e0 !important;
+  color: white !important;
+  border: 0;
+  margin-bottom: 1.8vh;
+}
