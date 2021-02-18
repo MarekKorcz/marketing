@@ -1,3 +1,7 @@
+a {
+  cursor: pointer;
+}
+
 .content {
   padding: 12vh 6vh 6vh 6vh;
 }
@@ -35,4 +39,8 @@
   color: white !important;
   border: 0;
   margin-bottom: 1.8vh;
+}
+
+table {
+  margin-top: 9vh;
 }
