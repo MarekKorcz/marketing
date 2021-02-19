@@ -41,6 +41,14 @@ a {
   margin-bottom: 1.8vh;
 }
 
+#scrollAim {
+  padding-top: 12vh;
+}
+
 table {
-  margin-top: 9vh;
+  font-size: .9rem;
+}
+
+th strong {
+  font-size: 1.2rem;
 }

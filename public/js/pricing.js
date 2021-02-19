@@ -20,5 +20,10 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
         clickedElement.classList.add('active')
+
+        var element = document.getElementById("scrollAim")
+        element.scrollIntoView({
+            behavior: "smooth"
+        })
     }
 })
