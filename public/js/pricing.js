@@ -41,22 +41,29 @@ window.addEventListener('DOMContentLoaded', () => {
         if (clickedElement.classList.contains('social')) {
             if (clickedElement.classList.contains('fb')) {
                 if (isMobile) {
-                    pricingElement.innerHTML += fbPricingMobile
+                    pricingElement.innerHTML += fbSocialPricingMobile
                 } else {
-                    pricingElement.innerHTML += fbPricingDesktop
+                    pricingElement.innerHTML += fbSocialPricingDesktop
                 }
-                
             } else if (clickedElement.classList.contains('insta')) {
                 if (isMobile) {
-                    pricingElement.innerHTML += instaPricingMobile
+                    pricingElement.innerHTML += instaSocialPricingMobile
                 } else {
-                    pricingElement.innerHTML += instaPricingDesktop
+                    pricingElement.innerHTML += instaSocialPricingDesktop
                 } 
+            }
+        } else if (clickedElement.classList.contains('ads')) {
+            if (clickedElement.classList.contains('fb')) {
+                if (isMobile) {
+                    pricingElement.innerHTML += fbAdsPricingMobile
+                } else {
+                    pricingElement.innerHTML += fbAdsPricingDesktop
+                }
             }
         }
     }
 
-    let fbPricingDesktop = `
+    let fbSocialPricingDesktop = `
             <div id="social-fb">
                 <div class="pricing-desktop">
                 <div class="text-center" style="padding-bottom: 1rem;">
@@ -613,7 +620,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
     `
 
-    let fbPricingMobile = `
+    let fbSocialPricingMobile = `
         <div id="social-fb-mobile">
             <div class="text-center" style="padding-bottom: 1rem;">
                 <h2>Prowadzenie mediów społecznościowych na Facebook'u</h2>
@@ -1811,7 +1818,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
     `
 
-    let instaPricingDesktop = `
+    let instaSocialPricingDesktop = `
             <div id="social-insta">
                 <div class="pricing-desktop">
                 <div class="text-center" style="padding-bottom: 1rem;">
@@ -2368,7 +2375,7 @@ window.addEventListener('DOMContentLoaded', () => {
         </div>
     `
 
-    let instaPricingMobile = `
+    let instaSocialPricingMobile = `
         <div id="social-insta-mobile">
             <div class="text-center" style="padding-bottom: 1rem;">
                 <h2>Prowadzenie mediów społecznościowych na Instagramie</h2>
@@ -3563,6 +3570,1019 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
                 </tbody>
             </table>
+        </div>
+    `
+
+    let fbAdsPricingDesktop = `
+        <div id="fb-ads-desktop">
+            <div class="text-center" style="padding-bottom: 1rem;">
+                <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x2
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x4
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x6
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x8
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    299zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    599zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    899zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1199zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    449 - 899zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    749 - 1799zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1349 - 2699zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1799 - 3599zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    9h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    12h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    16h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    2 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    4 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    6 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    8 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check; 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="pricing-ads-additional-desktop">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                    <th scope="row">
+                        <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                        </div>
+                    </th>
+                    <td>
+                        1099zł
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    `
+
+    let fbAdsPricingMobile = `
+            <div id="fb-ads-mobile">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">
+                        <div class="text-center">
+                        Plan
+                        </div>
+                    </th>
+                    <th scope="col">
+                        <div class="text-center">
+                        x2
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    299zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    449 - 899zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    2 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                    <th scope="row">
+                        <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                        </div>
+                    </th>
+                    <td>
+                        1099zł
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x4
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    599zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    749 - 1799zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    9h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    4 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x6
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    899zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1349 - 2699zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    12h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x8
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1199zł  
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1799 - 3599zł  
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    16h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    8 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
         </div>
     `
 })
