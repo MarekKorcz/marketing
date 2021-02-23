@@ -59,6 +59,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 } else {
                     pricingElement.innerHTML += fbAdsPricingDesktop
                 }
+            } else if (clickedElement.classList.contains('insta')) {
+                if (isMobile) {
+                    pricingElement.innerHTML += instaAdsPricingMobile
+                } else {
+                    pricingElement.innerHTML += instaAdsPricingDesktop
+                } 
             }
         }
     }
@@ -4465,6 +4471,1019 @@ window.addEventListener('DOMContentLoaded', () => {
                         Sugerowany budżet reklamowy </br>
                     </strong>
                     dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Facebook'u.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1799 - 3599zł  
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    16h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    8 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    `
+
+    let instaAdsPricingDesktop = `
+        <div id="insta-ads-desktop">
+            <div class="text-center" style="padding-bottom: 1rem;">
+                <h2>Prowadzenie kampanii reklamowych na Instagramie</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x2
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x4
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x6
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x8
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    299zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    599zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    899zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1199zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Instagramie.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    449 - 899zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    749 - 1799zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1349 - 2699zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    1799 - 3599zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    9h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    12h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    16h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    2 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    4 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    6 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    8 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check; 
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="pricing-ads-additional-desktop">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                    <th scope="row">
+                        <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                        </div>
+                    </th>
+                    <td>
+                        1099zł
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    `
+
+    let instaAdsPricingMobile = `
+            <div id="insta-ads-mobile">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Instagramie</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">
+                        <div class="text-center">
+                        Plan
+                        </div>
+                    </th>
+                    <th scope="col">
+                        <div class="text-center">
+                        x2
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    299zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Instagramie.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    449 - 899zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    2 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                    <th scope="row">
+                        <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                        </div>
+                    </th>
+                    <td>
+                        1099zł
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Instagramie</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x4
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    599zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Instagramie.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    749 - 1799zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    9h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    4 kampanie, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Instagramie</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x6
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    899zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Instagramie.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1349 - 2699zł 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Przygotowanie strategii i projektu kampanii </br>
+                    </strong>
+                    zrozumienie profilu osobowości potencjalnego klienta, analiza rynku, wybranie targetowania. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Stała optymalizacja i monitoring
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    12h prac, 4 razy w miesiącu 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Remarketing </br>
+                    </strong>
+                    wyświetlanie reklamy osobom które np odwiedziły stronę czy wykonały jakąś akcję (pixel). 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Konwersja </br>
+                    </strong>
+                    wykaz tego jaki procent osób wykonał pożądaną akcję po kliknięciu w reklamę. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Liczba kampanii </br>
+                    </strong>
+                    do wyboru: obraz, karuzela, relacje, film. 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    6 kampanii, każda po 2 reklamy 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Miesięczny raport </br>
+                    </strong>
+                    podsumowanie najważniejszych parametrów i wyników kampanii 
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    &check;
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+            </table>
+            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h4>Usługi dodatkowe [netto]</h4>
+            </div>
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td>
+                    1099zł
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Instagramie</h2>
+            </div>
+            <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    Plan
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x8
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Opłata miesięczna [netto]
+                    </strong>
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    1199zł  
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Zaprojektowanie kampanii - dodatkowa początkowa opłata </br>
+                    </strong>
+                    analiza konkurencji, przygotowanie treści oraz grafik reklam, przesłanie projektu, wdrożenie po zatwierdzeniu. 
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1 x miesięczny abonament 
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Sugerowany budżet reklamowy </br>
+                    </strong>
+                    dodatkowa kwota przeznaczana na wykupywanie miejsca reklamowego na Instagramie.
                     </div>
                 </th>
                 <td>
