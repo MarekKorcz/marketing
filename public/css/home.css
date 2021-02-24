@@ -74,6 +74,15 @@
   text-shadow: .09rem .09rem #ee27f0;
 }
 
+#eighth-main {
+  text-align: center;
+  border-radius: 1.5rem;
+  font-size: 1.8rem;
+  padding: 3vh;
+  margin-bottom: 8.1vh;
+  text-shadow: .25rem .25rem #f51720;
+}
+
 
 .image-half {
   padding: 1.5rem;
