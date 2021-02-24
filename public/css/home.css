@@ -43,6 +43,28 @@
 
 #fourth-main {
   border-radius: 2.7rem;
+  margin-bottom: 8vh;
+}
+
+#fifth-main {
+  border-radius: 1.5rem;
+  position: relative;
+  min-height: 300px;
+  z-index: 1;
+  margin-bottom: 3rem;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: .125rem .125rem #ee27f0;
+}
+
+#sixth-main {
+  text-align: center;
+  border-radius: 1.5rem;
+  font-size: 1.8rem;
+  padding: 3vh;
+  margin-bottom: 8.1vh;
+  text-shadow: .25rem .25rem #f51720;
 }
 
 
