@@ -503,7 +503,8 @@ window.addEventListener('DOMContentLoaded', () => {
                             <strong>
                             Opłata miesięczna [netto] </br>
                             </strong>
-                            Publikowanie tych samych postów na profilu Instagram'owym 
+                            Publikowanie tych samych postów na profilu Instagram'owym </br>
+                            (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                         </div>
                         </th>
                         <td>
@@ -611,7 +612,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <tr>
                         <th scope="row">
                         <div class="text-center">
-                            Animacja grafiki posta
+                            Animacja grafiki postu
                         </div>
                         </th>
                         <td colspan="4">
@@ -868,7 +869,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Instagram'owym 
+                        Publikowanie tych samych postów na profilu Instagram'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -916,7 +918,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -1166,7 +1168,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Instagram'owym 
+                        Publikowanie tych samych postów na profilu Instagram'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -1214,7 +1217,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -1464,7 +1467,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Instagram'owym 
+                        Publikowanie tych samych postów na profilu Instagram'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -1512,7 +1516,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -1762,7 +1766,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Instagram'owym 
+                        Publikowanie tych samych postów na profilu Instagram'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -1810,7 +1815,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -2258,7 +2263,8 @@ window.addEventListener('DOMContentLoaded', () => {
                             <strong>
                             Opłata miesięczna [netto] </br>
                             </strong>
-                            Publikowanie tych samych postów na profilu Facebook'owym 
+                            Publikowanie tych samych postów na profilu Facebook'owym </br>
+                            (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                         </div>
                         </th>
                         <td>
@@ -2366,7 +2372,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <tr>
                         <th scope="row">
                         <div class="text-center">
-                            Animacja grafiki posta
+                            Animacja grafiki postu
                         </div>
                         </th>
                         <td colspan="4">
@@ -2623,7 +2629,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Facebook'owym 
+                        Publikowanie tych samych postów na profilu Facebook'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -2671,7 +2678,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -2921,7 +2928,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Facebook'owym 
+                        Publikowanie tych samych postów na profilu Facebook'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -2969,7 +2977,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -3219,7 +3227,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Facebook'owym 
+                        Publikowanie tych samych postów na profilu Facebook'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -3267,7 +3276,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -3517,7 +3526,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         <strong>
                         Opłata miesięczna [netto] </br>
                         </strong>
-                        Publikowanie tych samych postów na profilu Facebook'owym 
+                        Publikowanie tych samych postów na profilu Facebook'owym </br>
+                        (Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego).
                     </div>
                     </th>
                     <td>
@@ -3565,7 +3575,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 <tr>
                     <th scope="row">
                     <div class="text-center">
-                        Animacja grafiki posta
+                        Animacja grafiki postu
                     </div>
                     </th>
                     <td>
@@ -3581,9 +3591,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     let fbAdsPricingDesktop = `
         <div id="fb-ads-desktop">
-            <div class="text-center" style="padding-bottom: 1rem;">
-                <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
-            </div>
+        <div class="text-center" style="padding-bottom: 1rem;">
+            <h2>Prowadzenie kampanii reklamowych na Facebook'u</h2>
+        </div>
             <table class="table">
             <thead class="thead-light">
                 <tr>
@@ -3872,21 +3882,81 @@ window.addEventListener('DOMContentLoaded', () => {
             </table>
         </div>
         <div class="pricing-ads-additional-desktop">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
             <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">
+                    <div class="text-center">
+                        <strong>
+                        Usługi dodatkowe
+                        </strong>
+                    </div>
+                    </th>
+                    <th scope="col">
+                    <div class="text-center">
+                        x2
+                    </div>
+                    </th>
+                    <th scope="col">
+                    <div class="text-center">
+                        x4
+                    </div>
+                    </th>
+                    <th scope="col">
+                    <div class="text-center">
+                        x6
+                    </div>
+                    </th>
+                    <th scope="col">
+                    <div class="text-center">
+                        x8
+                    </div>
+                    </th>
+                </tr>
+                </thead>
                 <tbody>
-                    <tr>
+                <tr>
                     <th scope="row">
-                        <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                        </div>
+                    <div class="text-center">
+                        <strong>
+                        Umieszczanie tych samych reklam na Instagramie [netto miesięcznie] </br>
+                        </strong>
+                        Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                    </div>
                     </th>
                     <td>
-                        1099zł
+                    <div class="text-center">
+                        149zł
+                    </div>
                     </td>
-                    </tr>
+                    <td>
+                    <div class="text-center">
+                        299zł
+                    </div>
+                    </td>
+                    <td>
+                    <div class="text-center">
+                        449zł
+                    </div>
+                    </td>
+                    <td>
+                    <div class="text-center">
+                        599zł
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                    <div class="text-center">
+                        Stworzenie dedykowanego landing page
+                    </div>
+                    </th>
+                    <td colspan="4">
+                    <div class="text-center">
+                        1099zł
+                    </div>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
@@ -4048,24 +4118,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
                     <tr>
-                    <th scope="row">
+                        <th scope="col">
                         <div class="text-center">
-                        Stworzenie dedykowanego landing page
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
                         </div>
-                    </th>
-                    <td>
-                        1099zł
-                    </td>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x2
+                        </div>
+                        </th>
                     </tr>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Instagramie [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            149zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -4222,24 +4321,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x4
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Instagramie [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            299zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -4396,24 +4524,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x6
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Instagramie [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            449zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -4570,24 +4727,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x8
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Instagramie [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            599zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     `
@@ -4885,22 +5071,82 @@ window.addEventListener('DOMContentLoaded', () => {
             </table>
         </div>
         <div class="pricing-ads-additional-desktop">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
             <table class="table">
-                <tbody>
-                    <tr>
-                    <th scope="row">
-                        <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                        </div>
-                    </th>
-                    <td>
-                        1099zł
-                    </td>
-                    </tr>
-                </tbody>
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">
+                    <div class="text-center">
+                    <strong>
+                        Usługi dodatkowe
+                    </strong>
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x2
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x4
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x6
+                    </div>
+                </th>
+                <th scope="col">
+                    <div class="text-center">
+                    x8
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    <strong>
+                        Umieszczanie tych samych reklam na Facebook'u [netto miesięcznie] </br>
+                    </strong>
+                    Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                    </div>
+                </th>
+                <td>
+                    <div class="text-center">
+                    149zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    299zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    449zł
+                    </div>
+                </td>
+                <td>
+                    <div class="text-center">
+                    599zł
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <th scope="row">
+                    <div class="text-center">
+                    Stworzenie dedykowanego landing page
+                    </div>
+                </th>
+                <td colspan="4">
+                    <div class="text-center">
+                    1099zł
+                    </div>
+                </td>
+                </tr>
+            </tbody>
             </table>
         </div>
     `
@@ -5061,24 +5307,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
                     <tr>
-                    <th scope="row">
+                        <th scope="col">
                         <div class="text-center">
-                        Stworzenie dedykowanego landing page
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
                         </div>
-                    </th>
-                    <td>
-                        1099zł
-                    </td>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x2
+                        </div>
+                        </th>
                     </tr>
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Facebook'u [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            149zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -5235,24 +5510,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x4
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Facebook'u [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            299zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -5409,24 +5713,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x6
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Facebook'u [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            449zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="text-center" style="padding-bottom: 1rem;">
@@ -5583,24 +5916,53 @@ window.addEventListener('DOMContentLoaded', () => {
                 </tr>
             </tbody>
             </table>
-            <div class="pricing-ads-additional-mobile" style="padding-bottom: 2.1rem;">
-            <div class="text-center" style="padding-bottom: 1rem;">
-            <h4>Usługi dodatkowe [netto]</h4>
-            </div>
-            <table class="table">
-                <tbody>
-                <tr>
-                    <th scope="row">
-                    <div class="text-center">
-                        Stworzenie dedykowanego landing page
-                    </div>
-                    </th>
-                    <td>
-                    1099zł
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="pricing-ads-additional-desktop">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                        <div class="text-center">
+                            <strong>
+                            Usługi dodatkowe
+                            </strong>
+                        </div>
+                        </th>
+                        <th scope="col">
+                        <div class="text-center">
+                            x8
+                        </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            <strong>
+                            Umieszczanie tych samych reklam na Facebook'u [netto miesięcznie] </br>
+                            </strong>
+                            Dodatkowo: wymagane będzie proporcjonalne zwiększenie budżetu reklamowego.
+                        </div>
+                        </th>
+                        <td>
+                        <div class="text-center">
+                            599zł
+                        </div>
+                        </td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                        <div class="text-center">
+                            Stworzenie dedykowanego landing page
+                        </div>
+                        </th>
+                        <td colspan="4">
+                        1099zł
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     `
