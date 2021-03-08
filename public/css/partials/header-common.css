@@ -39,6 +39,7 @@ nav {
 
 .nav-links li {
   list-style: none;
+  margin-top: 1.2vh;
 }
 
 .nav-links a {
@@ -48,6 +49,10 @@ nav {
   letter-spacing: .125rem;
   font-weight: bold;
   font-size: .875rem;
+}
+
+.nav-links a:hover {
+  color: white;
 }
 
 .burger {
@@ -74,17 +79,17 @@ nav {
   }
   
   .nav-links {
-      position: fixed;
-      right: 0px;
-      height: 69vh;
-      top: 6.2vh;
-      background-color: #5ce1e6;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 70%;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
+    position: fixed;
+    right: 0px;
+    height: 51vh;
+    top: 6.2vh;
+    background-color: #5ce1e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
   }
   
   .nav-links li {
@@ -99,6 +104,7 @@ nav {
 
 .nav-active {
   transform: translateX(0%);
+  height: 51vh;
 }
 
 @keyframes navLinkFade {
